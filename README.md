@@ -15,13 +15,15 @@
 ## Algorithm 1
 ### Pseudocode
 
+    
 
 ###  Complexity and Efficiency Class
     Proof by Step Count:
-    T(n) = 
-        Therefore, T(n) exists in O(f(n^2)).
-
-    Proof by Induction:
+    T(n) = 2 + n/2 * (3 + (n-2)5)
+         = 2 + n/2 * (5n - 7)
+         = 2 + (5n^2-7)/2
+         = (5n^2)/2 - 1/2
+        Therefore, T(n) exists in O(n^2).
     
 
 ### How it Works
