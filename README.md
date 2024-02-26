@@ -19,6 +19,10 @@
         count
         loop through even positions
             check and store needed value checking if above or below based on odd or even value
+            check for needed value in following indexes
+            Once value found perform swap
+            Otherwise exit with error
+        return swap count upon successful pairing
 
             
 
@@ -33,9 +37,9 @@
     
 
 ### How it Works
-To run this algorithm type `py Algo1.py`
+To run this algorithm type `py Algo1_Lott.py`
 
-
+Enter any even set of n numbers entirely containing corresponding pairs and the algorithm will return swaps needed to put together pairs.
 
 
 ## Algorithm 2
@@ -54,22 +58,13 @@ To run this algorithm type `py Algo1.py`
   
 ###  Complexity and Efficiency Class
     Proof by Step Count:
-    T(n) = 
-    
-    Proof by Induction:
-    1. 
+    T(n) = n * (2 + n * 4)
+         = n * (2 + 4n)
+         = 4n^2 + 2n
+         Therefore, T(n) exists in O(n^2).
 
-    2. 
-
-    3. 
-
-    4. 
-
-    5. Conclude
-    Therefore, T(n) exists in O(n^2).
 
 ### How it Works
-To run this algorithm type `py Algo2.py`
-Will use the example provided in the Project 1 document. (Should return 4)
+To run this algorithm type `py Algo2_Lott.py`
 
-Next
+Enter any corresponding set of values with an mpg. Algorithm will return the preferred city if one exists.
