@@ -6,7 +6,7 @@
 >
 > Assignment - Project 1
 >
-> Github Link - https://github.com/
+> Github Link - https://github.com/JoMiALex/Project1_335_SP24
 
 \* Contains Algorithm 1's & 2's:
     Pseudocode, Mathematical Analysis, How It Works
