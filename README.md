@@ -15,7 +15,13 @@
 ## Algorithm 1
 ### Pseudocode
 
-    
+    PairCheckFunction(test set)
+        count
+        loop through even positions
+            check and store needed value checking if above or below based on odd or even value
+
+            
+
 
 ###  Complexity and Efficiency Class
     Proof by Step Count:
@@ -31,9 +37,19 @@ To run this algorithm type `py Algo1.py`
 
 
 
+
 ## Algorithm 2
 ### Pseudocode
-Run through each city as the starting city and return the index if completes an entire cycle.
+
+    CityRunFunction(distanceSet, gasSet)
+        Loop using each city as start
+            Add range using gallons avalible times mpg
+            Subtract distand to next city
+            if range greater than 0
+                Loop through the rest of the cities
+                    Add range using gas available
+                    Subtract distance
+                    if negative exit loop
 
   
 ###  Complexity and Efficiency Class
